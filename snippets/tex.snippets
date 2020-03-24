@@ -309,12 +309,12 @@ snippet example exampleblock environment
 		${0:${VISUAL}}
 	\\end{exampleblock}
 snippet col2 two-column environment
-	\\begin{columns}
+	\\begin{columns}[${0:t}]
 		\\begin{column}{0.5\\textwidth}
 			${1}
 		\\end{column}
 		\\begin{column}{0.5\\textwidth}
-			${0}
+			${2}
 		\\end{column}
 	\\end{columns}
 snippet multicol2 two-column environment with multicol
